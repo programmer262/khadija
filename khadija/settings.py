@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 import django_heroku
+import django_jazzmin
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'gso5fc6^ps3wkk2re^ann3r2v!psc*_-uc%u-f2rd^-rv)#24_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['khadija-oum-elmouminine.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['khadijaoumelmouminine.herokuapp.com','127.0.0.1']
 
 
 
