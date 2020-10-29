@@ -1,1 +1,1 @@
-web: gunicorn 
+web: gunicorn khadija.wsgi --log-file -
