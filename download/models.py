@@ -3,18 +3,18 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class Matiére(models.Model):
-  matiére = models.CharField(max_length=200)
+  matiére = models.CharField(max_length=20)
   def __str__(self):
         return self.matiére
 class Professeur(models.Model):
-  name = models.CharField(max_length=200)
+  name = models.CharField(max_length=20)
   matiére = models.ForeignKey(Matiére, on_delete=models.SET_NULL, null=True, blank=True)
   def __str__(self):
         return self.name
 
 class Etudiant(models.Model): 
-  name = models.CharField(max_length=200)
-  email = models.CharField(max_length=2000)
+  name = models.CharField(max_length=20)
+  email = models.CharField(max_length=20)
   téléphone = models.CharField(max_length=16)
 
   def __str__(self):
