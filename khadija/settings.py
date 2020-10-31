@@ -127,3 +127,4 @@ MEDIA_URL = '/docs/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/docs')
 STATIC_ROOT = 'static'
+django_heroku.settings(locals())
