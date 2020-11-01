@@ -1,1 +1,2 @@
-web: gunicorn khadija.WSGI
+web: gunicorn khadija.wsgi
+web: gunicorn download.wsgi
