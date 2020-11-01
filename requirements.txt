@@ -54,17 +54,10 @@ jsonfield==3.1.0
 kiwisolver==1.2.0
 kombu==5.0.2
 lazy-object-proxy==1.4.3
-mailchimp==2.0.9
-mailgun==0.1.1
-Markdown==3.3.3
-matplotlib==3.3.2
 mccabe==0.6.1
-npm==0.1.1
-numpy==1.19.1
 oauthlib==3.0.1
 optional-django==0.1.0
 paho-mqtt==1.5.0
-panda==0.3.1
 pep8==1.7.1
 Pillow==6.2.2
 pipenv==2020.8.13
@@ -82,7 +75,6 @@ python-dateutil==2.8.1
 
 python3-openid==3.1.0
 pytz==2018.5
-pywin32==227
 requests==2.21.0
 requests-oauthlib==1.2.0
 s3transfer==0.3.3
@@ -101,4 +93,3 @@ websocket-client==0.57.0
 whitenoise==5.2.0
 wrapt==1.12.1
 wsproto==0.15.0
-yarn==0.0.9
