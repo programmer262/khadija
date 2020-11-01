@@ -1,1 +1,1 @@
-web: gunicorn khadija.wsgi
+web: hypercorn khadija.asgi:download
