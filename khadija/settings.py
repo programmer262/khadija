@@ -168,7 +168,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
@@ -179,5 +179,4 @@ STATICFILES_DIRS = [
 MEDIA_URL = '/docs/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/docs')
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 django_heroku.settings(locals())
