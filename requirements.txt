@@ -94,3 +94,4 @@ whitenoise==5.2.0
 wrapt==1.12.1
 wsproto==0.15.0
 uvicorn==0.12.2
+uvloop==0.14.0
