@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'AchrafChahin@Maths@moi324(Tres)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['khadijaoumelmouminine.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = []
 
 JAZZMIN_SETTINGS = {
   "site_title": "2BAC-PC-F-A-2",
