@@ -1,1 +1,1 @@
-web: gunicorn khadija.asgi:download -k uvicorn.workers.UvicornWorker
+web: gunicorn khadija.WSGI
